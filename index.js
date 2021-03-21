@@ -54,7 +54,7 @@ async function updateGist(stats) {
       gist_id: gistId,
       files: {
         [filename]: {
-          filename: `📊 Weekly Development Breakdown`,
+          filename: `📈 Weekly Development Breakdown`,
           content: lines.join("\n")
         }
       }
