@@ -32,7 +32,7 @@ async function updateGist(stats) {
 
   const lines = [];
   for (let i = 0; i < Math.min(stats.data.editor.length, 5); i++) {
-    const data = stats.editor.languages[i];
+    const data = stats.data.editor[i];
     const { name, percent, text: time } = data;
 
     const line = [
