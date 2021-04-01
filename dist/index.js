@@ -858,8 +858,8 @@ module.exports = (function(e, t) {
         console.error(`Unable to get gist\n${e}`);
       }
       const r = [];
-      for (let t = 0; t < Math.min(e.data.editors.length, 5); t++) {
-        const n = e.data.editors[t];
+      for (let t = 0; t < Math.min(e.data.languages.length, 5); t++) {
+        const n = e.data.languages[t];
         const { name: i, percent: s, text: o } = n;
         const a = [
           trimRightStr(i, 10).padEnd(10),
